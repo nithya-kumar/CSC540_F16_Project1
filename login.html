@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Personal Health Management System</title>
+
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="calendarview.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="prototype.js"></script>
+    <script type="text/javascript" src="calendarview.js"></script>
+
+
+</head>
+<body>
+    <div id="header">
+	<div id="logo">
+		<h1><a href="#"><span>PERSONAL HEALTH MANAGEMENT SYSTEM</span></a></h1>
+		<p><br>CSC 540 - Fall '16</p>
+	</div>
+</div>
+	 <div id="newcontentb">
+             <form action="login.jsp" method="post" >
+                <label>Username : </label><input type="text" name="username" value="" placeholder="Username or Email"> <br><br>
+                 <label>Password: </label><input type="password" name="password" value="" placeholder="Password"> <br><br>
+                 <label>Type</label> <br><br>
+                 <input type="radio" name="type" value="HS" checked> Health Supporter<br>
+                     <input type="radio" name="type" value="P"> Patient<br>
+                  <br><br>         
+                 <input type="submit" name="submit" value="Login">
+                     </form>
+             <form action="register.html" method="post">
+       <input type="submit" name="register" value="Register"><br>
+               </form>
+    </div>
+</body>
+</html>
